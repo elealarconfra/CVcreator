@@ -8,6 +8,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { PersonalInfoComponent } from './user-info/personal-info/personal-info.component';
+import { EmailComponent } from './user-info/personal-info/email/email.component';
 
 
 
@@ -26,7 +28,9 @@ import { UserInfoComponent } from './user-info/user-info.component';
         MatFormFieldModule,
         MatInputModule,
         MatSelectModule,
-        UserInfoComponent
+        UserInfoComponent,
+        PersonalInfoComponent,
+        EmailComponent,
     ]
 })
 export class AppModule { }
