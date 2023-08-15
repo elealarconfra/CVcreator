@@ -10,6 +10,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { PersonalInfoComponent } from './user-info/personal-info/personal-info.component';
 import { EmailComponent } from './user-info/personal-info/email/email.component';
+import { PhotoCVComponent } from './user-info/personal-info/photo-cv/photo-cv.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 
 
@@ -31,6 +34,9 @@ import { EmailComponent } from './user-info/personal-info/email/email.component'
         UserInfoComponent,
         PersonalInfoComponent,
         EmailComponent,
+        PhotoCVComponent,
+        MatButtonModule,
+        MatCardModule
     ]
 })
 export class AppModule { }

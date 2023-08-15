@@ -7,6 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { EmailComponent } from '../personal-info/email/email.component'
+import { PhotoCVComponent } from './photo-cv/photo-cv.component';
 
 @Component({
   selector: 'app-personal-info',
@@ -14,7 +15,7 @@ import { EmailComponent } from '../personal-info/email/email.component'
   styleUrls: ['./personal-info.component.scss'],
   standalone: true,
   imports: [MatFormFieldModule, MatInputModule, MatSelectModule, FormsModule,
-    ReactiveFormsModule, NgIf, MatDatepickerModule, MatNativeDateModule, EmailComponent],
+    ReactiveFormsModule, NgIf, MatDatepickerModule, MatNativeDateModule, EmailComponent, PhotoCVComponent],
 })
 export class PersonalInfoComponent {
 
